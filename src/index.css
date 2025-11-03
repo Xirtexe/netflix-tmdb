@@ -626,6 +626,9 @@ input[type="text"]::placeholder {
 
 /* Responsive */
 @media (max-width: 768px) {
+  input[type="text"] {
+    width: 180px;
+  }
   .fade-bottom .content {
     width: 80%;
     height: auto;
